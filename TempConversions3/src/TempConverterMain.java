@@ -4,7 +4,7 @@ import java.util.Scanner;
  * TempConverterMain retrieves the initial Fahrenheit value and prints the results from TempConverter
  * 
  * @author Forrest Hopkins
- * @version 3.7
+ * @version 3.7.2
  */
 public class TempConverterMain {
     /**
@@ -89,6 +89,7 @@ public class TempConverterMain {
                 } while ( ! validTemp);
             }
         }
+        keyInput.close();
     }
 }
 
